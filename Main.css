@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+    /* Determines spacing, font, sizing of page */
+}
+body{
+    background-color: lavender;
+    /* Background colour */
+}
+.App{
+    background-color: white;
+    width: 90%;
+    max-width: 550px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+    /* This determines/shapes the main window on screen that holds the quiz in. */
+}
+.App h1{
+    color: navy;
+    font: 2.2em Tahoma;
+    margin-top: 5px;
+    text-align: center;
+    border-bottom: 1.5px solid lavender;
+    padding-bottom: 10px;
+    /* Shapes the title text. */
+}
+.Quiz h3{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font: bold 1.5em Monospace;
+    /* Shapes the series of questions appearing on quiz.*/
+}
+.Quiz button{
+    background: white;
+    color: black;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 4px;
+    cursor: pointer;
+    border-bottom: 1.5px solid lavender;
+    border-top: 1.5px solid lavender;
+    /* Shapes the answer buttons on quiz. */
+}
+.btn:hover:not([disabled]){
+    background: #333;
+    color: lavender;
+    /* Shows hovering effect over buttons. */
+}
+#nxtButton{
+    background: rgb(147, 147, 196);
+    color: white;
+    width: 100px;
+    border: 0;
+    padding: 10px;
+    margin: 10px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    /* Shapes the next button and the appearance of the button once answer has been chosen. */
+}
